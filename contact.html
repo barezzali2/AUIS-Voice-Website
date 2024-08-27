@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="topBar">
+        <header>
+            <a href="index.html"><img src="images/voice.png" alt="auis_voice_logo"></a>
+        </header>
+    
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="articles.html">Articles</a></li>
+                <li><a href="opinion.html">Opinion</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li>
+                    <button id="toggleButton">Mode</button>
+                    <!-- <input type="text" name="search" id="searchFor" placeholder="Search...">    -->
+                    <!-- <img src="images/search.png" class="search-icon" alt="Search Icon"> -->
+                </li>
+               
+            </ul>
+        </nav>
+        
+        </div>
+
+        <main>
+            <div class="contact">
+                <h1>Have any concern? Contact Us!</h1>
+                <h3 class="email-c">Email Us: <a href="mailto:auis.voice@auis.edu.krd" target="_blank">auis.voice@auis.edu.krd</a></h3>
+                <h3 class="phone-c">Call Us: <a href="tel:+9647739737842">+9647739737842</a></h3>
+                <h3>You can visit us: <br><br>Sulaymaniyah, Kirkuk Road, Raparin</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d25964.599417415713!2d45.3568317!3d35.5641989!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40002e26c3d54d6f%3A0xab8c0997b1247330!2sAmerican%20University%20of%20Iraq-Sulaimani!5e0!3m2!1sen!2siq!4v1707916612287!5m2!1sen!2siq" 
+                
+                allowfullscreen="" loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade" 
+                class="map"></iframe>
+            </div>
+
+            <div class="form">
+                <h2>You can complete this form</h2>
+                <form>
+                <fieldset>
+                    <legend>Personal Information</legend>
+                    <div class="labels1">
+                    <label for="name">Full Name:</label>
+                    <input type="text" id="name" class="in-name">
+
+                    <label for="phoneNum">Phone Number:</label>
+                    <input type="tel" id="phoneNum" class="in-name">
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" class="in-name">
+                </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Your Feedback</legend>
+                    <div class="feedbackF">
+                    <label class="field2a">How do you rate our current work and publishings?</label>
+
+                    <input type="radio" name="rates" id="0" class="feedNum">
+                    <label for="0">0</label>
+                    <input type="radio" name="rates" id="25" class="feedNum">
+                    <label for="25">25</label>
+                    <input type="radio" name="rates" id="50" class="feedNum">
+                    <label for="50">50</label>
+                    <input type="radio" name="rates" id="75" class="feedNum">
+                    <label for="75">75</label>
+                    <input type="radio" name="rates" id="100" class="feedNum">
+                    <label for="100">100</label>
+
+                    <label class="field2b">How can we improve our work quality?</label>
+                    <textarea name="textarea" id="txarea"></textarea>
+                </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Join Us</legend>
+                    <div class="joinF">
+                    <label class="joinFa">Have you ever thought about working with us?</label>
+
+                    <input type="radio" name="join" id="yes" class="radios">
+                    <label for="yes">yes</label>
+
+                    <input type="radio" name="join" id="no" class="radios">
+                    <label for="no">No</label>
+
+                    <label class="joinFb">Are you interested in joining us?</label>
+                    <input type="radio" name="join2" id="yess" class="radios">
+                    <label for="yess">yes</label>
+
+                    <input type="radio" name="join2" id="noo" class="radios">
+                    <label for="noo">No</label>
+
+                    <label class="joinFc">If yes, please send an email for us <strong>auis.voice@auis.edu.krd</strong></label>
+                </div>
+                </fieldset>
+
+                <input type="submit" value="Submit" class="fbtn">
+                <input type="reset" value="Clear Form" class="fbtn">
+            </form>
+            </div>
+        </main>
+
+        <footer>
+            <p><a class="uni" href="https://www.auis.edu.krd/" target="_blank">American University of Iraq, Sulaimani</a></p>
+            <a href="https://twitter.com/TheAUISVoice" class="fa fa-twitter" target="_blank"></a>
+            <a href="https://www.instagram.com/auisvoice/?hl=en" class="fa fa-instagram" target="_blank"></a>
+            <a href="https://www.facebook.com/theauisvoice" class="fa fa-facebook" target="_blank"></a>
+            <p>&copy; 2024. All Rights Reserved </p>
+    
+        </footer>
+
+    <script src="Scripts/DarkMode.js"></script>
+    
+</body>
+</html>
